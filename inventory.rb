@@ -6,12 +6,13 @@
 # chooses the item to edit, the users should be allowed to enter
 # a new inventory count for the item.
 
-inventory = {}
+inventory = {
 
-inventory["1"] = 0
-inventory["2"] = 0
-inventory["3"] = 0
-inventory["4"] = 0
+	"Socks" => 0
+	"Shoes" => 0
+	"Apes" => 0
+	"Oranges" => 0
+}
 
 #This is the initial set of items in inventory
 # item1 = "shoes"
